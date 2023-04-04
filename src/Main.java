@@ -26,6 +26,11 @@ public class Main {
             sair = scanner.nextLine();
         }while (!sair.equals("s"));
 
+        for(Website meuSite : meusWebSites){
+            System.out.println(meuSite.getNome() + ": " + meuSite.getUrl());
+            System.out.println("------------------------------------");
+        }
+
 
     }
 }
